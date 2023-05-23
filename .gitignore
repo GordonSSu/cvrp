@@ -1,5 +1,17 @@
+#### Ignore executables (files without extensions) ####
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+########################################################
+
 # Ignore Mac system files
 .DS_Store
 
 # Ignore dSYM files
 cvrp.dSYM/
+
