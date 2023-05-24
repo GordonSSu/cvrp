@@ -26,9 +26,10 @@ int main(int argc, char *argv[]) {
     generate_random_instance(grid_size_x, grid_size_y, num_targets, num_vehicles);
 
     // Create CVRP and find solution
-    cvrp(consider_only_best_bid);
+    cvrp(consider_only_best_bid, "results.txt");
     */
 
     // Read dataset, solve each cvrp, and output results to output file
-    dataset_cvrp(true, "CVRP_commondatasets.txt", "results.txt");
+    dataset_cvrp(true, "CVRP_commondatasets.txt", "best_bid_results.txt");   // Considering only best bids
+    dataset_cvrp(false, "CVRP_commondatasets.txt", "all_bids_results.txt");   // Considering all bids
 }

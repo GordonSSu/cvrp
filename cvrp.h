@@ -29,22 +29,22 @@ const int MIN_WEIGHT = 10;
 const int MAX_WEIGHT = 100;
 
 // General use fields
-std::unordered_map<int, Target>			targets;
-std::unordered_map<int, Vehicle>		vehicles;
-std::vector<int>						target_ids;
-std::vector<int>						vehicle_ids;
+std::unordered_map<int, Target>					targets;
+std::unordered_map<int, Vehicle>				vehicles;
+std::vector<int>								target_ids;
+std::vector<int>								vehicle_ids;
+std::unordered_map<int, std::vector<GRBVar>>	bids_for_target;	// Stores bid variables for each target (both singleton and pair bids)
+std::unordered_map<int, std::vector<GRBVar>>	vehicle_bids;		// Stores bid variables for each vehicle (both singleton and pair bids)
 
 // General use functions
 double euclidean_distance(std::pair<int, int> location1, std::pair<int, int> location2);
 void generate_random_instance(int grid_size_x, int grid_size_y, int num_targets, int num_vehicles);
-void create_singleton_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction, 
-	std::unordered_map<int, std::vector<GRBVar>>& bids_for_target, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids);
-void create_pair_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction, 
-	std::unordered_map<int, std::vector<GRBVar>>& bids_for_target, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids);
-void create_constraints(GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& bids_for_target);
-void append_results_to_file(std::string output_file_name, GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids);
-void print_results(GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids);
-void cvrp(bool consider_only_best_bid, std::string output_file_name);
+void create_singleton_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction);
+void create_pair_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction);
+void create_constraints(GRBModel& model);
+void append_results_to_file(std::string output_file_name, GRBModel& model, std::string instance_name);
+void print_results(GRBModel& model, std::string instance_name);
+void cvrp(bool consider_only_best_bid, std::string output_file_name, std::string instance_name = "CVRP Instance");
 
 // Dataset testing functions
 void reset_state();
@@ -97,11 +97,8 @@ void generate_random_instance(int grid_size_x, int grid_size_y, int num_targets,
  * @param consider_only_best_bid - Flag indicating whether to consider only the best bid for each itemset or all of them
  * @param model - GRB model
  * @param objFunction - Objective function to minimize
- * @param bids_for_target - Map storing bid variables for each target (both singleton and pair bids)
- * @param vehicle_bids - Map storing bid variables for each vehicle (both singleton and pair bids)
  */
-void create_singleton_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction, 
-	std::unordered_map<int, std::vector<GRBVar>>& bids_for_target, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids) {
+void create_singleton_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction) {
 	for (const auto& target_entry : targets) {
 		Target target = target_entry.second;
 
@@ -192,11 +189,8 @@ void create_singleton_bids(bool consider_only_best_bid, GRBModel& model, GRBLinE
  * @param consider_only_best_bid - Flag indicating whether to consider only the best bid for each itemset or all of them
  * @param model - GRB model
  * @param objFunction - Objective function to minimize
- * @param bids_for_target - Map storing bid variables for each target (both singleton and pair bids)
- * @param vehicle_bids - Map storing bid variables for each vehicle (both singleton and pair bids)
  */
-void create_pair_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction, 
-	std::unordered_map<int, std::vector<GRBVar>>& bids_for_target, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids) {
+void create_pair_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* objFunction) {
 	for (int target_id_index_1 = 0; target_id_index_1 < targets.size() - 1; target_id_index_1++) {
 		for (int target_id_index_2 = target_id_index_1 + 1; target_id_index_2 < targets.size(); target_id_index_2++) {
 			int target_id_1 = target_id_index_1;
@@ -295,9 +289,8 @@ void create_pair_bids(bool consider_only_best_bid, GRBModel& model, GRBLinExpr* 
 /*
  * Create constraints such that each target is serviced exactly once
  * @param model - GRB model
- * @param bids_for_target - Map storing bid variables for each target (both singleton and pair bids)
  */
-void create_constraints(GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& bids_for_target) {
+void create_constraints(GRBModel& model) {
 	for (auto& target_bids: bids_for_target) {
 		GRBLinExpr* target_constraint = new GRBLinExpr();
 
@@ -314,69 +307,72 @@ void create_constraints(GRBModel& model, std::unordered_map<int, std::vector<GRB
  * Output vehicle-target assignments to file
  * @param output_file_name - Name of file to output results to
  * @param model - Optimized Gurobi model
- * @param vehicle_bids - Map storing bid variables for each vehicle (both singleton and pair bids)
+ * @param instance_name - Name of current problem instance
  */
-void append_results_to_file(std::string output_file_name, GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids) {
+void append_results_to_file(std::string output_file_name, GRBModel& model, std::string instance_name) {
 	// Create output file stream
-    std::ofstream outfile(output_file_name);
+    std::ofstream outfile;
+    outfile.open(output_file_name, std::ios_base::app); // Append to file rather than overwrite
 
     if (outfile.is_open()) {
+    	// Write instance name
+    	outfile << instance_name << "\n";
+
+		// Write minimum sum of tour lengths
+		outfile << "Minimum Sum of Tour Lengths: " << model.get(GRB_DoubleAttr_ObjVal) << "\n";
+		
+		// Track assignments of targets to vehicles
+		for (const auto& vehicle_entry : vehicles) {
+			Vehicle vehicle = vehicle_entry.second;
+
+			// Write vehicle information
+			outfile << "Vehicle: " << vehicle.depot_location.first << "," << vehicle.depot_location.second << "\n";
+
+			if (vehicle_bids.find(vehicle.id) != vehicle_bids.end()) {
+				// Track the number of tours for the current vehicle
+				int tour_count = 1;
+
+				for (auto& bid : vehicle_bids[vehicle.id]) {
+					// Bid has been "accepted by auctioneer"
+					if (bid.get(GRB_DoubleAttr_X) == 1) {
+						std::string bid_var_name = bid.get(GRB_StringAttr_VarName);
+						char* split_element = strtok(&bid_var_name[0], ",");
+						split_element = strtok(NULL, ",");
+						int target_id_1 = std::stoi(split_element);
+						Target target_1 = targets[target_id_1];
+
+						// Output tour count and first target location
+						outfile << "Tour " << tour_count++ << ": " << target_1.location.first << "," << target_1.location.second;
+
+						// If the tour encompasses two targets, output second target location
+						split_element = strtok(NULL, ",");
+						if (split_element != NULL) {
+							int target_id_2 = std::stoi(split_element);
+							Target target_2 = targets[target_id_2];
+							outfile << ";" << target_2.location.first << "," << target_2.location.second << "\n";
+						} else {
+							outfile << "\n";
+						}
+					}
+				}
+			}
+
+			outfile << "\n";
+		}
+
     	outfile.close();
     }
-
-
-
-
-
-	// // Output minimum sum of tour lengths
-	// printf("Minimum Sum of Tour Lengths: %f\n", model.get(GRB_DoubleAttr_ObjVal));
-	
-	// // Track assignments of targets to vehicles
-	// for (const auto& vehicle_entry : vehicles) {
-	// 	Vehicle vehicle = vehicle_entry.second;
-
-	// 	// Output vehicle information
-	// 	printf("Vehicle %d (%d,%d)\n", vehicle.id, vehicle.depot_location.first, vehicle.depot_location.second);
-
-	// 	if (vehicle_bids.find(vehicle.id) != vehicle_bids.end()) {
-	// 		// Track the number of tours for the current vehicle
-	// 		int tour_count = 1;
-
-	// 		for (auto& bid : vehicle_bids[vehicle.id]) {
-	// 			// Bid has been "accepted by auctioneer"
-	// 			if (bid.get(GRB_DoubleAttr_X) == 1) {
-	// 				std::string bid_var_name = bid.get(GRB_StringAttr_VarName);
-	// 				char* split_element = strtok(&bid_var_name[0], ",");
-	// 				split_element = strtok(NULL, ",");
-	// 				int target_id_1 = std::stoi(split_element);
-	// 				Target target_1 = targets[target_id_1];
-
-	// 				// Output tour count and first target location
-	// 				printf("\tTour %d: Target %d (%d,%d)", tour_count++, target_id_1, target_1.location.first, target_1.location.second);
-
-	// 				// If the tour encompasses two targets, output second target location
-	// 				split_element = strtok(NULL, ",");
-	// 				if (split_element != NULL) {
-	// 					int target_id_2 = std::stoi(split_element);
-	// 					Target target_2 = targets[target_id_2];
-	// 					printf(", Target %d (%d,%d)\n", target_id_2, target_2.location.first, target_2.location.second);
-	// 				} else {
-	// 					printf("\n");
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-
-	// 	printf("\n");
-	// }
 }
 
 /*
  * Print vehicle-target assignments
  * @param model - Optimized Gurobi model
- * @param vehicle_bids - Map storing bid variables for each vehicle (both singleton and pair bids)
+ * @param instance_name - Name of current problem instance
  */
-void print_results(GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>& vehicle_bids) {
+void print_results(GRBModel& model, std::string instance_name) {
+	// Print instance name
+	printf("%s\n", &instance_name[0]);
+
 	// Print minimum sum of tour lengths
 	printf("Minimum Sum of Tour Lengths: %f\n", model.get(GRB_DoubleAttr_ObjVal));
 	
@@ -424,8 +420,9 @@ void print_results(GRBModel& model, std::unordered_map<int, std::vector<GRBVar>>
  * Set up and solve CVRP problem with desired problem formulation
  * @param consider_only_best_bid - Flag indicating whether to consider only the best bid for each itemset or all of them
  * @param output_file_name - Name of file to output results to
+ * @param instance_name - Name of current problem instance
  */
-void cvrp(bool consider_only_best_bid, std::string output_file_name) {
+void cvrp(bool consider_only_best_bid, std::string output_file_name, std::string instance_name) {
 	try {
 		// Initialize environment and suppress output
 		GRBEnv* environment = new GRBEnv();
@@ -435,27 +432,24 @@ void cvrp(bool consider_only_best_bid, std::string output_file_name) {
 		GRBModel model = GRBModel(*environment);
 		GRBLinExpr* objFunction = new GRBLinExpr();
 
-		// Store bids for each target (for XOR constraints)
-		std::unordered_map<int, std::vector<GRBVar>> bids_for_target;
-
-		// Store bids for each vehicle
-		std::unordered_map<int, std::vector<GRBVar>> vehicle_bids;
-
 		// Create bids
-		create_singleton_bids(consider_only_best_bid, model, objFunction, bids_for_target, vehicle_bids);
-		create_pair_bids(consider_only_best_bid, model, objFunction, bids_for_target, vehicle_bids);
+		create_singleton_bids(consider_only_best_bid, model, objFunction);
+		create_pair_bids(consider_only_best_bid, model, objFunction);
 
 	    // Goal is to minimize objective function
 	    model.setObjective(*objFunction, GRB_MINIMIZE);
 
 	    // Create constraints
-	    create_constraints(model, bids_for_target);
+	    create_constraints(model);
 
 	    // Optimize objective
 		model.optimize();
 
+		// Print results
+		print_results(model, instance_name);
+
 		// Output results to file
-		append_results_to_file(output_file_name, model, vehicle_bids);
+		append_results_to_file(output_file_name, model, instance_name);
 	} catch (GRBException e) {
         std::cout << "Error code = " << e.getErrorCode() << std::endl;
         std::cout << e.getMessage() << std::endl;
@@ -472,6 +466,8 @@ void reset_state() {
 	vehicles.clear();
 	target_ids.clear();
 	vehicle_ids.clear();
+	bids_for_target.clear();
+	vehicle_bids.clear();
 }
 
 /*
@@ -582,8 +578,6 @@ void dataset_cvrp(bool consider_only_best_bid, std::string input_file_name, std:
         	target_locations_line = target_locations_line.substr(target_locations_line.find_first_of(":") + 1);
         	weights_line = weights_line.substr(weights_line.find_first_of("=") + 2);
 
-        	std::cout << dataset_name_line << std::endl;
-
 			// Clear problem state
 			reset_state();
 
@@ -591,7 +585,7 @@ void dataset_cvrp(bool consider_only_best_bid, std::string input_file_name, std:
         	generate_instance(vehicle_locations_line, target_locations_line, weights_line);
 
         	// Solve problem instance and append results to file
-        	//cvrp(consider_only_best_bid, output_file_name);
+        	cvrp(consider_only_best_bid, output_file_name, dataset_name_line);
         }
 
         infile.close();

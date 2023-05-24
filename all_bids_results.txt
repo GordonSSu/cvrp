@@ -1,0 +1,2115 @@
+﻿Data set #1
+Minimum Sum of Tour Lengths: 829.411
+Vehicle: 163,246
+
+Vehicle: 111,178
+Tour 1: 129,218
+Tour 2: 36,184;40,146
+
+Vehicle: 198,188
+Tour 1: 159,117;191,115
+
+Vehicle: 66,251
+Tour 1: 87,215;91,227
+
+Vehicle: 78,96
+Tour 1: 42,102;7,80
+
+Vehicle: 155,14
+Tour 1: 184,69
+
+Data set #2
+Minimum Sum of Tour Lengths: 754.695
+Vehicle: 117,293
+
+Vehicle: 63,156
+Tour 1: 11,178
+
+Vehicle: 83,230
+Tour 1: 120,241
+Tour 2: 49,213;53,241
+
+Vehicle: 162,140
+Tour 1: 190,129
+Tour 2: 76,13;152,91
+
+Vehicle: 168,271
+Tour 1: 198,290;185,293
+
+Vehicle: 89,182
+Tour 1: 82,187
+
+Data set #3
+Minimum Sum of Tour Lengths: 695.658
+Vehicle: 10,215
+
+Vehicle: 137,74
+Tour 1: 192,44
+Tour 2: 180,41;187,19
+
+Vehicle: 44,266
+Tour 1: 42,289
+
+Vehicle: 26,132
+Tour 1: 21,150;25,106
+
+Vehicle: 125,163
+Tour 1: 115,139;77,195
+
+Vehicle: 57,259
+Tour 1: 109,292;91,260
+
+Data set #4
+Minimum Sum of Tour Lengths: 760.786
+Vehicle: 159,248
+Tour 1: 166,263
+Tour 2: 159,272;143,278
+
+Vehicle: 127,229
+
+Vehicle: 92,208
+Tour 1: 101,123;55,112
+
+Vehicle: 66,242
+
+Vehicle: 160,49
+Tour 1: 192,60
+Tour 2: 165,96;113,81
+Tour 3: 130,27;70,23
+
+Vehicle: 176,5
+
+Data set #5
+Minimum Sum of Tour Lengths: 818.686
+Vehicle: 106,63
+Tour 1: 189,119;159,112
+Tour 2: 150,83;143,37
+
+Vehicle: 87,54
+
+Vehicle: 58,263
+Tour 1: 142,176;124,213
+Tour 2: 5,206;11,212
+
+Vehicle: 66,68
+
+Vehicle: 30,45
+Tour 1: 45,34
+
+Vehicle: 189,283
+Tour 1: 199,267
+
+Data set #6
+Minimum Sum of Tour Lengths: 986.902
+Vehicle: 97,281
+
+Vehicle: 163,235
+Tour 1: 158,231
+
+Vehicle: 169,184
+
+Vehicle: 86,41
+Tour 1: 14,47
+Tour 2: 62,92
+Tour 3: 166,34;150,114
+
+Vehicle: 83,148
+Tour 1: 2,94
+Tour 2: 49,116
+
+Vehicle: 13,258
+Tour 1: 20,291
+Tour 2: 51,240;60,238
+
+Data set #7
+Minimum Sum of Tour Lengths: 737.968
+Vehicle: 93,46
+Tour 1: 72,59;120,12
+
+Vehicle: 183,134
+Tour 1: 175,105
+
+Vehicle: 146,160
+
+Vehicle: 156,247
+Tour 1: 152,294;15,297
+Tour 2: 177,228;160,264
+
+Vehicle: 53,158
+Tour 1: 66,142;70,168
+
+Vehicle: 8,108
+Tour 1: 34,97
+
+Data set #8
+Minimum Sum of Tour Lengths: 1164.33
+Vehicle: 88,181
+Tour 1: 75,162
+
+Vehicle: 24,114
+Tour 1: 18,162
+Tour 2: 68,42;94,55
+Tour 3: 176,44;131,15
+Tour 4: 81,12;74,22
+
+Vehicle: 194,242
+
+Vehicle: 105,287
+
+Vehicle: 86,296
+Tour 1: 9,235;6,268
+
+Vehicle: 142,295
+
+Data set #9
+Minimum Sum of Tour Lengths: 931.514
+Vehicle: 171,34
+
+Vehicle: 132,12
+Tour 1: 115,37
+
+Vehicle: 2,152
+Tour 1: 19,56;42,86
+Tour 2: 6,126;63,108
+
+Vehicle: 106,8
+
+Vehicle: 145,147
+Tour 1: 172,127
+
+Vehicle: 154,175
+Tour 1: 173,205;145,187
+Tour 2: 127,255;25,268
+
+Data set #10
+Minimum Sum of Tour Lengths: 946.377
+Vehicle: 102,235
+Tour 1: 128,206
+Tour 2: 16,265
+
+Vehicle: 112,119
+Tour 1: 72,155;71,122
+
+Vehicle: 7,146
+
+Vehicle: 177,94
+Tour 1: 165,137
+
+Vehicle: 170,244
+Tour 1: 186,271
+Tour 2: 178,199;147,200
+
+Vehicle: 94,87
+Tour 1: 135,66;3,45
+
+Data set #11
+Minimum Sum of Tour Lengths: 825.403
+Vehicle: 142,147
+Tour 1: 194,245;127,225
+
+Vehicle: 35,48
+
+Vehicle: 56,110
+Tour 1: 101,82
+Tour 2: 72,79
+
+Vehicle: 10,252
+Tour 1: 6,246;26,266
+Tour 2: 53,204;46,173
+
+Vehicle: 155,97
+Tour 1: 186,73;199,128
+
+Vehicle: 71,18
+
+Data set #12
+Minimum Sum of Tour Lengths: 842.229
+Vehicle: 84,43
+Tour 1: 4,12;9,75
+Tour 2: 92,59;99,38
+
+Vehicle: 130,62
+
+Vehicle: 61,220
+Tour 1: 73,151
+Tour 2: 23,168;24,148
+Tour 3: 7,225;43,294
+
+Vehicle: 171,163
+Tour 1: 192,161
+
+Vehicle: 124,95
+
+Vehicle: 178,197
+
+Data set #13
+Minimum Sum of Tour Lengths: 980.762
+Vehicle: 52,102
+Tour 1: 48,102
+Tour 2: 160,55;110,89
+
+Vehicle: 40,103
+
+Vehicle: 30,109
+Tour 1: 2,129
+Tour 2: 25,174;1,229
+
+Vehicle: 105,197
+Tour 1: 196,197
+Tour 2: 98,284;129,265
+
+Vehicle: 16,29
+
+Vehicle: 26,42
+Tour 1: 45,48
+
+Data set #14
+Minimum Sum of Tour Lengths: 789.244
+Vehicle: 78,55
+Tour 1: 100,78;100,70
+Tour 2: 64,58;0,5
+
+Vehicle: 158,51
+Tour 1: 180,101;159,110
+
+Vehicle: 74,107
+Tour 1: 16,168
+
+Vehicle: 168,46
+
+Vehicle: 195,19
+
+Vehicle: 29,270
+Tour 1: 44,260
+Tour 2: 71,223;99,205
+
+Data set #15
+Minimum Sum of Tour Lengths: 864.875
+Vehicle: 19,95
+
+Vehicle: 21,35
+Tour 1: 0,40;114,5
+
+Vehicle: 4,205
+Tour 1: 13,237;22,261
+
+Vehicle: 79,115
+Tour 1: 90,47
+
+Vehicle: 128,257
+Tour 1: 82,255
+Tour 2: 74,276;65,295
+
+Vehicle: 11,187
+Tour 1: 71,187;30,173
+
+Data set #16
+Minimum Sum of Tour Lengths: 923.635
+Vehicle: 117,161
+Tour 1: 183,122;124,43
+
+Vehicle: 40,93
+Tour 1: 123,25
+Tour 2: 40,93
+
+Vehicle: 9,23
+
+Vehicle: 13,50
+Tour 1: 0,55
+
+Vehicle: 48,240
+
+Vehicle: 96,166
+Tour 1: 81,164
+Tour 2: 192,281;92,211
+Tour 3: 92,181;85,180
+
+Data set #17
+Minimum Sum of Tour Lengths: 790.972
+Vehicle: 55,106
+Tour 1: 37,136
+Tour 2: 61,78;50,97
+
+Vehicle: 195,18
+
+Vehicle: 51,13
+Tour 1: 38,35
+
+Vehicle: 149,199
+Tour 1: 198,222
+Tour 2: 7,260;165,268
+
+Vehicle: 156,114
+Tour 1: 167,113
+
+Vehicle: 158,56
+Tour 1: 185,62;145,77
+
+Data set #18
+Minimum Sum of Tour Lengths: 844.598
+Vehicle: 118,195
+Tour 1: 96,193
+Tour 2: 94,168;103,169
+
+Vehicle: 68,73
+Tour 1: 28,99
+Tour 2: 33,37;74,1
+
+Vehicle: 105,85
+Tour 1: 165,108
+
+Vehicle: 47,263
+Tour 1: 102,256;16,181
+
+Vehicle: 152,181
+Tour 1: 184,171
+
+Vehicle: 10,265
+
+Data set #19
+Minimum Sum of Tour Lengths: 733.663
+Vehicle: 170,139
+Tour 1: 159,142
+
+Vehicle: 88,148
+Tour 1: 114,137;119,155
+
+Vehicle: 63,232
+Tour 1: 107,239
+Tour 2: 21,240
+Tour 3: 117,258;163,213
+
+Vehicle: 185,94
+Tour 1: 200,83
+
+Vehicle: 15,77
+
+Vehicle: 174,71
+Tour 1: 116,0;181,70
+
+Data set #20
+Minimum Sum of Tour Lengths: 671.763
+Vehicle: 123,202
+Tour 1: 117,270;74,230
+
+Vehicle: 48,186
+Tour 1: 60,175;76,197
+
+Vehicle: 133,205
+Tour 1: 199,250
+
+Vehicle: 181,161
+
+Vehicle: 138,67
+Tour 1: 130,41
+Tour 2: 195,95;161,108
+
+Vehicle: 27,105
+Tour 1: 16,83;31,101
+
+Data set #21
+Minimum Sum of Tour Lengths: 732.773
+Vehicle: 91,52
+
+Vehicle: 88,278
+
+Vehicle: 180,52
+Tour 1: 162,59
+
+Vehicle: 132,197
+Tour 1: 149,239;141,225
+
+Vehicle: 176,190
+Tour 1: 197,190
+Tour 2: 154,142;191,130
+
+Vehicle: 76,59
+Tour 1: 83,117;25,114
+Tour 2: 26,64;17,134
+
+Data set #22
+Minimum Sum of Tour Lengths: 961.44
+Vehicle: 152,65
+
+Vehicle: 141,240
+Tour 1: 126,234
+Tour 2: 39,280;83,289
+
+Vehicle: 68,90
+
+Vehicle: 59,100
+Tour 1: 24,100
+Tour 2: 86,145;12,139
+Tour 3: 85,174;12,221
+
+Vehicle: 189,92
+Tour 1: 190,145
+
+Vehicle: 136,69
+Tour 1: 130,50
+
+Data set #23
+Minimum Sum of Tour Lengths: 673.723
+Vehicle: 123,49
+Tour 1: 106,35;119,30
+Tour 2: 48,110;74,2
+Tour 3: 152,38;127,70
+
+Vehicle: 59,196
+Tour 1: 84,206
+Tour 2: 84,229
+
+Vehicle: 198,176
+
+Vehicle: 130,153
+
+Vehicle: 182,35
+Tour 1: 191,29
+
+Vehicle: 64,280
+Tour 1: 109,272
+
+Data set #24
+Minimum Sum of Tour Lengths: 940.914
+Vehicle: 183,250
+Tour 1: 163,296
+
+Vehicle: 94,209
+Tour 1: 109,217
+
+Vehicle: 122,105
+Tour 1: 152,48;169,50
+Tour 2: 167,31;34,112
+
+Vehicle: 150,141
+Tour 1: 177,138
+
+Vehicle: 34,200
+Tour 1: 50,298;22,256
+
+Vehicle: 75,1
+Tour 1: 66,30
+
+Data set #25
+Minimum Sum of Tour Lengths: 870.861
+Vehicle: 31,260
+Tour 1: 22,296
+Tour 2: 52,218
+Tour 3: 66,274;72,281
+
+Vehicle: 3,55
+Tour 1: 80,9;7,34
+
+Vehicle: 135,248
+
+Vehicle: 127,217
+Tour 1: 94,137;90,184
+
+Vehicle: 134,279
+
+Vehicle: 166,161
+Tour 1: 131,69;198,107
+
+Data set #26
+Minimum Sum of Tour Lengths: 738.373
+Vehicle: 32,58
+Tour 1: 12,73;45,75
+Tour 2: 11,108;39,141
+
+Vehicle: 148,98
+Tour 1: 149,88
+
+Vehicle: 186,137
+
+Vehicle: 7,200
+Tour 1: 13,214
+
+Vehicle: 183,189
+Tour 1: 145,225
+
+Vehicle: 29,261
+Tour 1: 61,232
+Tour 2: 64,196;117,247
+
+Data set #27
+Minimum Sum of Tour Lengths: 670.289
+Vehicle: 143,85
+Tour 1: 121,114;183,155
+Tour 2: 98,114;109,81
+
+Vehicle: 128,55
+
+Vehicle: 156,5
+
+Vehicle: 112,200
+Tour 1: 138,277;131,194
+
+Vehicle: 9,85
+Tour 1: 8,114
+
+Vehicle: 59,46
+Tour 1: 70,46
+Tour 2: 71,9;81,36
+
+Data set #28
+Minimum Sum of Tour Lengths: 766.01
+Vehicle: 60,255
+Tour 1: 72,231;39,217
+
+Vehicle: 89,113
+Tour 1: 129,142;86,123
+
+Vehicle: 129,87
+Tour 1: 182,24
+
+Vehicle: 48,163
+Tour 1: 56,202
+Tour 2: 48,125;67,180
+
+Vehicle: 77,294
+Tour 1: 163,267;96,271
+
+Vehicle: 88,167
+
+Data set #29
+Minimum Sum of Tour Lengths: 816.545
+Vehicle: 13,124
+Tour 1: 10,170
+Tour 2: 32,252;45,170
+Tour 3: 20,100;2,108
+
+Vehicle: 151,217
+
+Vehicle: 42,55
+Tour 1: 63,12
+Tour 2: 11,62
+Tour 3: 126,36;76,41
+
+Vehicle: 138,212
+Tour 1: 113,196
+
+Vehicle: 190,133
+
+Vehicle: 180,97
+
+Data set #30
+Minimum Sum of Tour Lengths: 706.026
+Vehicle: 110,59
+Tour 1: 162,107
+
+Vehicle: 21,194
+
+Vehicle: 121,38
+
+Vehicle: 34,145
+Tour 1: 91,150;123,151
+
+Vehicle: 37,296
+Tour 1: 8,286;21,269
+
+Vehicle: 100,250
+Tour 1: 110,221
+Tour 2: 81,295;146,275
+Tour 3: 85,223;77,231
+
+Data set #31
+Minimum Sum of Tour Lengths: 1068.93
+Vehicle: 78,130
+Tour 1: 87,115
+Tour 2: 143,56;197,26
+Tour 3: 139,168;171,133
+Tour 4: 105,88;180,83
+
+Vehicle: 51,153
+
+Vehicle: 7,293
+Tour 1: 83,298;4,238
+
+Vehicle: 161,270
+Tour 1: 144,275
+
+Vehicle: 53,190
+
+Vehicle: 74,187
+
+Data set #32
+Minimum Sum of Tour Lengths: 798.364
+Vehicle: 112,77
+Tour 1: 59,68
+Tour 2: 175,129;100,180
+
+Vehicle: 112,296
+
+Vehicle: 2,2
+
+Vehicle: 192,252
+Tour 1: 197,241
+Tour 2: 178,239
+
+Vehicle: 16,187
+Tour 1: 30,192
+Tour 2: 38,252;70,226
+Tour 3: 72,194;88,199
+
+Vehicle: 13,27
+
+Data set #33
+Minimum Sum of Tour Lengths: 1215.08
+Vehicle: 115,286
+Tour 1: 141,218
+Tour 2: 24,188;21,231
+Tour 3: 100,269;178,225
+
+Vehicle: 73,53
+Tour 1: 115,75;88,129
+
+Vehicle: 68,21
+
+Vehicle: 56,21
+
+Vehicle: 97,37
+Tour 1: 117,15
+Tour 2: 191,105;154,172
+
+Vehicle: 40,81
+
+Data set #34
+Minimum Sum of Tour Lengths: 841.98
+Vehicle: 89,113
+Tour 1: 64,156
+
+Vehicle: 120,260
+Tour 1: 47,300
+
+Vehicle: 122,14
+
+Vehicle: 5,119
+Tour 1: 26,41
+
+Vehicle: 129,62
+Tour 1: 180,46
+Tour 2: 169,55
+Tour 3: 99,75;98,70
+
+Vehicle: 150,196
+Tour 1: 149,191
+Tour 2: 172,141;194,151
+
+Data set #35
+Minimum Sum of Tour Lengths: 641.683
+Vehicle: 123,37
+Tour 1: 143,57
+
+Vehicle: 135,160
+Tour 1: 148,149;141,126
+Tour 2: 187,189;162,156
+
+Vehicle: 76,78
+Tour 1: 3,17
+Tour 2: 49,108;27,77
+
+Vehicle: 168,123
+
+Vehicle: 49,153
+Tour 1: 45,132
+
+Vehicle: 63,278
+Tour 1: 53,275
+
+Data set #36
+Minimum Sum of Tour Lengths: 988.039
+Vehicle: 176,237
+Tour 1: 195,278
+
+Vehicle: 55,73
+Tour 1: 18,120
+Tour 2: 102,100
+Tour 3: 100,79
+
+Vehicle: 108,16
+Tour 1: 166,55
+Tour 2: 151,64
+
+Vehicle: 79,5
+Tour 1: 66,26
+
+Vehicle: 45,178
+Tour 1: 29,227;102,187
+
+Vehicle: 144,142
+Tour 1: 178,139
+
+Data set #37
+Minimum Sum of Tour Lengths: 926.39
+Vehicle: 148,230
+Tour 1: 161,214
+
+Vehicle: 121,248
+Tour 1: 112,240;62,209
+Tour 2: 111,230;54,289
+
+Vehicle: 147,111
+Tour 1: 81,131
+Tour 2: 126,113
+Tour 3: 37,22
+Tour 4: 189,114;175,94
+
+Vehicle: 138,265
+
+Vehicle: 188,22
+
+Vehicle: 180,231
+
+Data set #38
+Minimum Sum of Tour Lengths: 1384.45
+Vehicle: 177,170
+Tour 1: 161,279;36,240
+Tour 2: 105,267;60,208
+
+Vehicle: 93,17
+Tour 1: 78,33
+Tour 2: 3,57
+
+Vehicle: 153,14
+Tour 1: 179,80
+
+Vehicle: 109,4
+
+Vehicle: 121,28
+Tour 1: 108,55;28,129
+
+Vehicle: 189,157
+Tour 1: 185,155
+
+Data set #39
+Minimum Sum of Tour Lengths: 1126.7
+Vehicle: 83,91
+Tour 1: 16,8
+Tour 2: 70,79
+
+Vehicle: 50,222
+Tour 1: 42,281
+
+Vehicle: 120,189
+Tour 1: 187,193
+Tour 2: 110,160
+Tour 3: 189,196
+Tour 4: 69,169;162,228
+
+Vehicle: 148,36
+
+Vehicle: 12,140
+
+Vehicle: 179,44
+Tour 1: 188,11;174,111
+
+Data set #40
+Minimum Sum of Tour Lengths: 777.835
+Vehicle: 162,248
+Tour 1: 184,218
+Tour 2: 172,169;168,170
+
+Vehicle: 9,15
+Tour 1: 3,30
+
+Vehicle: 58,280
+Tour 1: 35,222;95,196
+
+Vehicle: 178,28
+
+Vehicle: 135,27
+Tour 1: 102,33
+
+Vehicle: 41,80
+Tour 1: 78,72
+Tour 2: 64,49
+Tour 3: 8,69
+
+Data set #41
+Minimum Sum of Tour Lengths: 927.627
+Vehicle: 187,90
+Tour 1: 76,32
+
+Vehicle: 59,281
+Tour 1: 51,292
+
+Vehicle: 192,192
+Tour 1: 146,212;140,221
+Tour 2: 191,174;179,262
+
+Vehicle: 54,170
+Tour 1: 75,185
+Tour 2: 3,68
+
+Vehicle: 45,195
+
+Vehicle: 24,196
+Tour 1: 7,210;0,187
+
+Data set #42
+Minimum Sum of Tour Lengths: 907.071
+Vehicle: 26,163
+Tour 1: 2,177;22,223
+
+Vehicle: 42,155
+
+Vehicle: 73,55
+Tour 1: 86,56
+Tour 2: 37,43;52,103
+
+Vehicle: 164,285
+Tour 1: 56,280
+Tour 2: 86,263
+
+Vehicle: 3,15
+
+Vehicle: 152,136
+Tour 1: 123,111
+Tour 2: 142,151;98,176
+
+Data set #43
+Minimum Sum of Tour Lengths: 1032.65
+Vehicle: 35,188
+Tour 1: 47,184
+Tour 2: 38,149;48,153
+
+Vehicle: 71,276
+Tour 1: 140,255
+
+Vehicle: 116,70
+Tour 1: 140,10
+Tour 2: 39,56
+Tour 3: 181,96
+Tour 4: 196,49;146,107
+
+Vehicle: 33,221
+
+Vehicle: 110,188
+Tour 1: 180,203
+
+Vehicle: 103,107
+
+Data set #44
+Minimum Sum of Tour Lengths: 972.012
+Vehicle: 39,1
+
+Vehicle: 49,249
+Tour 1: 59,278
+
+Vehicle: 60,203
+Tour 1: 156,225
+Tour 2: 68,209;90,231
+Tour 3: 172,152;178,178
+
+Vehicle: 11,276
+
+Vehicle: 79,81
+Tour 1: 91,127
+Tour 2: 85,46
+Tour 3: 149,106;145,56
+
+Vehicle: 54,205
+
+Data set #45
+Minimum Sum of Tour Lengths: 636.924
+Vehicle: 109,230
+Tour 1: 124,212
+
+Vehicle: 8,182
+Tour 1: 30,175
+
+Vehicle: 187,276
+Tour 1: 177,230
+Tour 2: 160,262;162,243
+
+Vehicle: 87,78
+
+Vehicle: 131,128
+Tour 1: 119,97
+Tour 2: 131,130
+
+Vehicle: 121,21
+Tour 1: 193,46
+Tour 2: 154,58;167,71
+
+Data set #46
+Minimum Sum of Tour Lengths: 1027.46
+Vehicle: 17,224
+Tour 1: 77,210
+Tour 2: 27,266;99,201
+Tour 3: 72,246;101,266
+
+Vehicle: 154,93
+Tour 1: 172,124
+
+Vehicle: 196,201
+Tour 1: 195,242
+Tour 2: 139,248
+
+Vehicle: 14,179
+Tour 1: 28,161;39,89
+
+Vehicle: 136,96
+
+Vehicle: 145,96
+
+Data set #47
+Minimum Sum of Tour Lengths: 966.514
+Vehicle: 145,82
+
+Vehicle: 171,98
+Tour 1: 145,127
+Tour 2: 194,161
+
+Vehicle: 95,3
+Tour 1: 125,19
+
+Vehicle: 70,254
+Tour 1: 99,215;134,217
+
+Vehicle: 108,152
+Tour 1: 150,208
+Tour 2: 117,206
+
+Vehicle: 47,178
+Tour 1: 10,189
+Tour 2: 56,116;40,79
+
+Data set #48
+Minimum Sum of Tour Lengths: 974.815
+Vehicle: 21,239
+
+Vehicle: 125,78
+
+Vehicle: 130,93
+
+Vehicle: 110,103
+Tour 1: 87,98
+Tour 2: 119,120
+Tour 3: 39,54;0,21
+Tour 4: 33,74;109,115
+
+Vehicle: 39,217
+Tour 1: 60,193;26,109
+
+Vehicle: 155,69
+Tour 1: 193,58
+Tour 2: 165,8
+
+Data set #49
+Minimum Sum of Tour Lengths: 1275.69
+Vehicle: 76,165
+
+Vehicle: 177,294
+
+Vehicle: 80,152
+Tour 1: 5,108
+Tour 2: 28,101
+
+Vehicle: 4,256
+Tour 1: 27,222
+
+Vehicle: 73,244
+Tour 1: 90,238;89,244
+
+Vehicle: 112,128
+Tour 1: 153,185
+Tour 2: 138,0
+Tour 3: 168,153
+Tour 4: 33,9;21,62
+
+Data set #50
+Minimum Sum of Tour Lengths: 890.907
+Vehicle: 95,207
+Tour 1: 113,244
+Tour 2: 157,156;132,190
+
+Vehicle: 53,275
+Tour 1: 127,281
+
+Vehicle: 63,29
+Tour 1: 64,56;121,105
+
+Vehicle: 26,227
+
+Vehicle: 8,298
+Tour 1: 6,274
+
+Vehicle: 183,54
+Tour 1: 146,1
+Tour 2: 125,68;157,69
+
+Data set #51
+Minimum Sum of Tour Lengths: 836.779
+Vehicle: 130,242
+
+Vehicle: 55,173
+Tour 1: 36,162
+Tour 2: 85,192
+Tour 3: 41,140
+Tour 4: 19,249;61,269
+
+Vehicle: 179,205
+Tour 1: 154,204
+Tour 2: 152,166;178,183
+
+Vehicle: 126,19
+Tour 1: 174,63
+
+Vehicle: 116,103
+Tour 1: 57,63
+
+Vehicle: 115,135
+
+Data set #52
+Minimum Sum of Tour Lengths: 806.634
+Vehicle: 71,91
+Tour 1: 61,80
+
+Vehicle: 133,31
+
+Vehicle: 98,45
+Tour 1: 124,82
+
+Vehicle: 99,184
+Tour 1: 61,155;71,161
+Tour 2: 86,275;21,162
+Tour 3: 185,196;123,166
+
+Vehicle: 137,5
+
+Vehicle: 172,51
+Tour 1: 158,36;194,17
+
+Data set #53
+Minimum Sum of Tour Lengths: 554.137
+Vehicle: 76,18
+Tour 1: 25,30;18,20
+
+Vehicle: 39,129
+
+Vehicle: 5,86
+Tour 1: 7,74
+Tour 2: 19,94
+
+Vehicle: 107,44
+
+Vehicle: 136,143
+Tour 1: 125,156
+
+Vehicle: 73,210
+Tour 1: 82,186
+Tour 2: 44,210;45,280
+Tour 3: 111,207;106,177
+
+Data set #54
+Minimum Sum of Tour Lengths: 805.297
+Vehicle: 79,3
+Tour 1: 72,17;82,30
+
+Vehicle: 13,87
+
+Vehicle: 108,139
+Tour 1: 141,145;174,131
+Tour 2: 120,103;115,117
+
+Vehicle: 29,211
+Tour 1: 2,289
+Tour 2: 43,287
+
+Vehicle: 129,57
+
+Vehicle: 188,178
+Tour 1: 194,244;128,186
+
+Data set #55
+Minimum Sum of Tour Lengths: 757.496
+Vehicle: 92,248
+Tour 1: 185,254;104,228
+
+Vehicle: 81,234
+Tour 1: 70,178
+
+Vehicle: 181,115
+Tour 1: 190,85
+Tour 2: 181,191;168,198
+
+Vehicle: 141,118
+Tour 1: 157,87
+
+Vehicle: 29,266
+Tour 1: 38,271
+
+Vehicle: 100,50
+Tour 1: 53,72;90,73
+
+Data set #56
+Minimum Sum of Tour Lengths: 1093.97
+Vehicle: 156,2
+
+Vehicle: 184,261
+Tour 1: 69,262;14,279
+Tour 2: 130,253;121,191
+Tour 3: 39,274;44,247
+
+Vehicle: 7,93
+
+Vehicle: 150,55
+Tour 1: 132,94
+
+Vehicle: 132,29
+Tour 1: 115,39
+
+Vehicle: 49,101
+Tour 1: 95,120;81,111
+
+Data set #57
+Minimum Sum of Tour Lengths: 729.194
+Vehicle: 100,115
+Tour 1: 108,154;137,114
+
+Vehicle: 9,193
+Tour 1: 67,176;64,190
+
+Vehicle: 118,20
+Tour 1: 175,10;195,42
+
+Vehicle: 169,135
+Tour 1: 167,169
+Tour 2: 171,168;176,203
+
+Vehicle: 52,89
+Tour 1: 57,43
+
+Vehicle: 16,14
+
+Data set #58
+Minimum Sum of Tour Lengths: 1018.09
+Vehicle: 123,164
+Tour 1: 135,232;191,276
+
+Vehicle: 100,60
+Tour 1: 168,76
+Tour 2: 156,74
+
+Vehicle: 91,19
+Tour 1: 0,38;63,54
+
+Vehicle: 59,249
+Tour 1: 24,220
+
+Vehicle: 45,137
+Tour 1: 21,110;24,84
+
+Vehicle: 68,284
+Tour 1: 107,289
+
+Data set #59
+Minimum Sum of Tour Lengths: 707.389
+Vehicle: 4,198
+Tour 1: 35,286
+
+Vehicle: 105,162
+
+Vehicle: 32,164
+Tour 1: 14,158
+Tour 2: 34,92;69,136
+
+Vehicle: 95,21
+Tour 1: 68,26
+
+Vehicle: 98,87
+Tour 1: 96,74
+Tour 2: 91,107
+Tour 3: 86,91
+
+Vehicle: 126,54
+Tour 1: 146,50;194,14
+
+Data set #60
+Minimum Sum of Tour Lengths: 886.621
+Vehicle: 31,258
+
+Vehicle: 47,268
+
+Vehicle: 122,65
+Tour 1: 116,82
+Tour 2: 142,69;188,122
+Tour 3: 152,31;138,11
+
+Vehicle: 106,244
+Tour 1: 80,246
+Tour 2: 187,228;188,196
+
+Vehicle: 97,223
+Tour 1: 124,178
+
+Vehicle: 24,210
+Tour 1: 24,120
+
+Data set #61
+Minimum Sum of Tour Lengths: 804.136
+Vehicle: 127,118
+
+Vehicle: 55,83
+Tour 1: 6,85;16,130
+
+Vehicle: 120,278
+
+Vehicle: 120,197
+Tour 1: 175,231
+Tour 2: 190,237
+
+Vehicle: 60,136
+
+Vehicle: 131,58
+Tour 1: 159,61
+Tour 2: 143,41
+Tour 3: 56,21;101,5
+Tour 4: 107,53;123,73
+
+Data set #62
+Minimum Sum of Tour Lengths: 986.862
+Vehicle: 193,215
+Tour 1: 188,196
+
+Vehicle: 130,96
+Tour 1: 171,144
+
+Vehicle: 80,247
+Tour 1: 1,220
+
+Vehicle: 104,166
+Tour 1: 148,158
+Tour 2: 90,147
+Tour 3: 22,134;13,127
+
+Vehicle: 133,63
+Tour 1: 108,27
+Tour 2: 54,66;21,45
+
+Vehicle: 150,230
+
+Data set #63
+Minimum Sum of Tour Lengths: 974.611
+Vehicle: 103,133
+Tour 1: 101,208;17,147
+
+Vehicle: 175,19
+Tour 1: 200,49
+
+Vehicle: 154,89
+
+Vehicle: 157,8
+Tour 1: 90,8;60,64
+
+Vehicle: 72,273
+Tour 1: 88,286
+Tour 2: 116,267;142,244
+
+Vehicle: 130,118
+Tour 1: 172,157
+Tour 2: 144,154
+
+Data set #64
+Minimum Sum of Tour Lengths: 924.194
+Vehicle: 97,104
+Tour 1: 148,18;139,78
+Tour 2: 124,176;37,85
+
+Vehicle: 114,260
+Tour 1: 81,239
+
+Vehicle: 42,206
+Tour 1: 22,165
+Tour 2: 19,223;4,194
+
+Vehicle: 124,263
+Tour 1: 163,295;195,250
+
+Vehicle: 184,128
+
+Vehicle: 15,299
+
+Data set #65
+Minimum Sum of Tour Lengths: 806.112
+Vehicle: 125,53
+Tour 1: 72,76;122,88
+
+Vehicle: 196,224
+Tour 1: 196,255;184,274
+Tour 2: 157,180;87,213
+
+Vehicle: 24,122
+Tour 1: 8,159
+Tour 2: 84,119;54,79
+
+Vehicle: 6,281
+
+Vehicle: 153,80
+
+Vehicle: 101,10
+Tour 1: 67,9
+
+Data set #66
+Minimum Sum of Tour Lengths: 918.279
+Vehicle: 66,198
+Tour 1: 55,200
+Tour 2: 15,300;34,218
+
+Vehicle: 4,149
+
+Vehicle: 63,52
+
+Vehicle: 104,274
+Tour 1: 166,223;177,282
+Tour 2: 139,236;128,212
+
+Vehicle: 89,138
+Tour 1: 139,105
+Tour 2: 172,168;132,137
+
+Vehicle: 2,179
+
+Data set #67
+Minimum Sum of Tour Lengths: 1041.39
+Vehicle: 167,153
+
+Vehicle: 150,300
+Tour 1: 174,278
+
+Vehicle: 168,142
+
+Vehicle: 139,12
+Tour 1: 133,42
+Tour 2: 100,75;132,92
+Tour 3: 2,121;46,76
+Tour 4: 123,8;146,34
+
+Vehicle: 147,173
+
+Vehicle: 116,222
+Tour 1: 8,298;58,204
+
+Data set #68
+Minimum Sum of Tour Lengths: 789.26
+Vehicle: 50,62
+Tour 1: 54,64
+
+Vehicle: 112,219
+Tour 1: 2,282
+Tour 2: 90,283
+
+Vehicle: 180,157
+Tour 1: 173,140
+Tour 2: 186,195
+
+Vehicle: 169,35
+Tour 1: 164,24
+Tour 2: 107,30;119,52
+
+Vehicle: 128,180
+
+Vehicle: 64,101
+Tour 1: 22,139;52,109
+
+Data set #69
+Minimum Sum of Tour Lengths: 809.54
+Vehicle: 40,116
+Tour 1: 34,109
+Tour 2: 80,73;85,63
+
+Vehicle: 7,183
+
+Vehicle: 72,280
+Tour 1: 51,253
+
+Vehicle: 87,202
+Tour 1: 82,188
+
+Vehicle: 109,191
+Tour 1: 193,142;175,53
+
+Vehicle: 125,290
+Tour 1: 101,292
+Tour 2: 195,247;163,268
+
+Data set #70
+Minimum Sum of Tour Lengths: 771.75
+Vehicle: 51,105
+Tour 1: 33,118
+
+Vehicle: 81,152
+Tour 1: 68,159
+Tour 2: 70,122;44,156
+
+Vehicle: 42,61
+Tour 1: 145,93;131,2
+
+Vehicle: 158,252
+Tour 1: 189,248;189,265
+
+Vehicle: 94,228
+Tour 1: 77,271
+
+Vehicle: 167,213
+Tour 1: 179,162
+
+Data set #71
+Minimum Sum of Tour Lengths: 628.583
+Vehicle: 4,201
+Tour 1: 16,181
+
+Vehicle: 66,221
+Tour 1: 85,249;67,191
+Tour 2: 20,279;62,271
+
+Vehicle: 186,266
+Tour 1: 190,204;138,247
+
+Vehicle: 180,39
+
+Vehicle: 135,145
+Tour 1: 123,131;142,146
+
+Vehicle: 37,79
+Tour 1: 9,69
+
+Data set #72
+Minimum Sum of Tour Lengths: 1127.36
+Vehicle: 123,40
+Tour 1: 96,70;180,2
+Tour 2: 62,29;23,2
+
+Vehicle: 159,285
+Tour 1: 0,233;64,296
+
+Vehicle: 136,185
+
+Vehicle: 81,150
+Tour 1: 87,200;4,216
+
+Vehicle: 166,76
+
+Vehicle: 153,119
+Tour 1: 168,148
+Tour 2: 140,134
+
+Data set #73
+Minimum Sum of Tour Lengths: 831.529
+Vehicle: 70,276
+
+Vehicle: 66,31
+Tour 1: 48,8
+Tour 2: 14,44
+Tour 3: 28,60
+
+Vehicle: 191,150
+
+Vehicle: 197,118
+
+Vehicle: 176,90
+Tour 1: 151,115
+
+Vehicle: 103,97
+Tour 1: 96,155;85,169
+Tour 2: 44,191;68,128
+Tour 3: 77,75;103,46
+
+Data set #74
+Minimum Sum of Tour Lengths: 680.003
+Vehicle: 30,257
+Tour 1: 1,234;5,259
+
+Vehicle: 123,80
+Tour 1: 95,83
+Tour 2: 138,32;97,10
+
+Vehicle: 153,101
+Tour 1: 176,47
+Tour 2: 167,105;157,126
+
+Vehicle: 161,170
+
+Vehicle: 13,81
+
+Vehicle: 142,204
+Tour 1: 173,276;194,270
+
+Data set #75
+Minimum Sum of Tour Lengths: 1265.3
+Vehicle: 98,140
+Tour 1: 9,42
+Tour 2: 130,12;11,83
+
+Vehicle: 118,149
+
+Vehicle: 116,225
+Tour 1: 187,283;182,245
+Tour 2: 125,265;167,259
+
+Vehicle: 72,278
+
+Vehicle: 130,152
+
+Vehicle: 59,177
+Tour 1: 72,218
+Tour 2: 7,94;17,104
+
+Data set #76
+Minimum Sum of Tour Lengths: 571.856
+Vehicle: 195,6
+Tour 1: 200,37
+
+Vehicle: 70,214
+Tour 1: 15,245;47,232
+
+Vehicle: 78,144
+Tour 1: 34,102;25,133
+
+Vehicle: 84,224
+Tour 1: 74,260
+
+Vehicle: 144,213
+
+Vehicle: 114,68
+Tour 1: 118,77
+Tour 2: 116,56
+Tour 3: 109,92;137,117
+
+Data set #77
+Minimum Sum of Tour Lengths: 1051.26
+Vehicle: 128,232
+
+Vehicle: 150,218
+
+Vehicle: 163,137
+Tour 1: 195,117
+
+Vehicle: 127,98
+Tour 1: 62,64
+Tour 2: 65,43;34,63
+
+Vehicle: 108,259
+Tour 1: 41,252
+
+Vehicle: 142,194
+Tour 1: 155,170
+Tour 2: 61,179;1,139
+Tour 3: 92,166;116,182
+
+Data set #78
+Minimum Sum of Tour Lengths: 836.152
+Vehicle: 69,269
+
+Vehicle: 13,164
+
+Vehicle: 118,216
+
+Vehicle: 163,168
+Tour 1: 181,108
+
+Vehicle: 84,117
+Tour 1: 86,100
+Tour 2: 157,45;60,19
+Tour 3: 97,107;88,63
+Tour 4: 110,172;87,148
+
+Vehicle: 158,206
+Tour 1: 142,254;180,241
+
+Data set #79
+Minimum Sum of Tour Lengths: 716.33
+Vehicle: 80,38
+
+Vehicle: 89,257
+
+Vehicle: 123,185
+Tour 1: 144,217
+Tour 2: 185,175;169,202
+
+Vehicle: 197,27
+
+Vehicle: 164,26
+
+Vehicle: 86,154
+Tour 1: 94,161
+Tour 2: 113,107;168,111
+Tour 3: 114,136;115,160
+Tour 4: 39,129;18,184
+
+Data set #80
+Minimum Sum of Tour Lengths: 676.163
+Vehicle: 71,164
+Tour 1: 86,133;112,156
+
+Vehicle: 133,206
+Tour 1: 107,168;120,176
+
+Vehicle: 28,291
+Tour 1: 48,259
+
+Vehicle: 118,59
+Tour 1: 89,54;123,110
+
+Vehicle: 144,229
+Tour 1: 114,281;93,265
+
+Vehicle: 54,130
+Tour 1: 4,136
+
+Data set #81
+Minimum Sum of Tour Lengths: 623.552
+Vehicle: 53,60
+Tour 1: 55,17;52,28
+
+Vehicle: 36,59
+Tour 1: 29,33
+
+Vehicle: 2,121
+
+Vehicle: 136,162
+Tour 1: 143,155
+
+Vehicle: 112,219
+Tour 1: 33,244;19,252
+Tour 2: 173,212;126,204
+
+Vehicle: 49,125
+Tour 1: 37,139
+Tour 2: 26,169
+
+Data set #82
+Minimum Sum of Tour Lengths: 704.909
+Vehicle: 85,242
+Tour 1: 99,233;115,245
+
+Vehicle: 133,121
+
+Vehicle: 166,33
+Tour 1: 156,19
+Tour 2: 196,95;199,93
+Tour 3: 78,27;154,45
+
+Vehicle: 51,277
+
+Vehicle: 1,279
+
+Vehicle: 108,177
+Tour 1: 143,204
+Tour 2: 53,134;78,208
+
+Data set #83
+Minimum Sum of Tour Lengths: 1237.68
+Vehicle: 7,231
+Tour 1: 26,253
+
+Vehicle: 141,149
+Tour 1: 194,25;141,8
+Tour 2: 179,50;155,119
+Tour 3: 188,227;180,150
+
+Vehicle: 125,163
+
+Vehicle: 175,291
+
+Vehicle: 84,215
+Tour 1: 56,170
+
+Vehicle: 4,155
+Tour 1: 62,64;57,7
+
+Data set #84
+Minimum Sum of Tour Lengths: 1035.43
+Vehicle: 177,263
+
+Vehicle: 63,39
+Tour 1: 181,31
+Tour 2: 129,6
+Tour 3: 26,14;33,9
+
+Vehicle: 155,279
+Tour 1: 170,279
+
+Vehicle: 113,189
+Tour 1: 174,145
+Tour 2: 107,176;132,148
+
+Vehicle: 80,122
+Tour 1: 11,222;43,109
+
+Vehicle: 154,281
+
+Data set #85
+Minimum Sum of Tour Lengths: 792.001
+Vehicle: 43,179
+Tour 1: 10,183;61,215
+
+Vehicle: 80,155
+Tour 1: 62,150
+
+Vehicle: 167,4
+Tour 1: 136,61;129,50
+Tour 2: 49,10;81,24
+
+Vehicle: 83,274
+Tour 1: 100,272
+
+Vehicle: 142,132
+Tour 1: 185,115;176,200
+
+Vehicle: 1,275
+
+Data set #86
+Minimum Sum of Tour Lengths: 722.545
+Vehicle: 39,11
+Tour 1: 15,8
+
+Vehicle: 144,252
+Tour 1: 102,252
+Tour 2: 129,271;126,282
+
+Vehicle: 142,107
+
+Vehicle: 61,278
+
+Vehicle: 162,35
+Tour 1: 145,9;198,3
+
+Vehicle: 101,132
+Tour 1: 52,106;9,169
+Tour 2: 109,203;128,171
+
+Data set #87
+Minimum Sum of Tour Lengths: 861.503
+Vehicle: 44,181
+
+Vehicle: 146,117
+Tour 1: 165,112
+Tour 2: 191,44;199,57
+
+Vehicle: 89,61
+Tour 1: 59,3
+Tour 2: 13,48
+Tour 3: 135,15;166,6
+
+Vehicle: 35,247
+Tour 1: 58,256
+
+Vehicle: 110,227
+
+Vehicle: 112,98
+Tour 1: 105,145;91,147
+
+Data set #88
+Minimum Sum of Tour Lengths: 898.313
+Vehicle: 94,281
+Tour 1: 103,262
+
+Vehicle: 23,181
+Tour 1: 43,207
+
+Vehicle: 120,130
+Tour 1: 199,108
+Tour 2: 130,155;97,191
+Tour 3: 169,100;73,141
+Tour 4: 159,65;153,89
+
+Vehicle: 87,62
+
+Vehicle: 191,226
+Tour 1: 186,287
+
+Vehicle: 54,242
+
+Data set #89
+Minimum Sum of Tour Lengths: 968.58
+Vehicle: 109,212
+Tour 1: 37,140
+Tour 2: 5,269;44,229
+
+Vehicle: 3,10
+Tour 1: 24,57;42,27
+
+Vehicle: 95,11
+Tour 1: 158,50
+
+Vehicle: 155,228
+Tour 1: 163,236
+
+Vehicle: 156,159
+Tour 1: 188,182
+
+Vehicle: 156,157
+Tour 1: 135,147;121,97
+
+Data set #90
+Minimum Sum of Tour Lengths: 925.745
+Vehicle: 50,29
+
+Vehicle: 121,224
+Tour 1: 101,261
+Tour 2: 194,206
+Tour 3: 147,264
+Tour 4: 42,227;18,236
+Tour 5: 157,107;157,211
+
+Vehicle: 16,129
+
+Vehicle: 164,7
+
+Vehicle: 63,15
+Tour 1: 80,11
+
+Vehicle: 41,119
+Tour 1: 26,98
+Tour 2: 43,137
+
+Data set #91
+Minimum Sum of Tour Lengths: 1048.5
+Vehicle: 8,299
+
+Vehicle: 26,271
+Tour 1: 92,258;14,243
+Tour 2: 72,232;70,212
+
+Vehicle: 42,37
+
+Vehicle: 151,296
+Tour 1: 198,277;192,173
+
+Vehicle: 65,48
+Tour 1: 109,53
+Tour 2: 171,3;115,18
+
+Vehicle: 84,149
+Tour 1: 118,104
+
+Data set #92
+Minimum Sum of Tour Lengths: 865.342
+Vehicle: 0,77
+Tour 1: 58,101
+
+Vehicle: 191,75
+Tour 1: 177,62
+Tour 2: 134,45;141,99
+Tour 3: 189,155;140,111
+
+Vehicle: 116,232
+Tour 1: 115,204;192,262
+
+Vehicle: 56,33
+Tour 1: 26,32
+
+Vehicle: 62,251
+
+Vehicle: 28,179
+Tour 1: 12,158
+
+Data set #93
+Minimum Sum of Tour Lengths: 926.114
+Vehicle: 155,138
+Tour 1: 199,86
+Tour 2: 133,155
+
+Vehicle: 184,233
+
+Vehicle: 9,254
+Tour 1: 44,285
+
+Vehicle: 78,217
+Tour 1: 64,193
+Tour 2: 126,276;95,294
+Tour 3: 71,185;52,166
+
+Vehicle: 29,34
+
+Vehicle: 77,110
+Tour 1: 135,20;113,141
+
+Data set #94
+Minimum Sum of Tour Lengths: 1232.77
+Vehicle: 170,143
+Tour 1: 187,224
+Tour 2: 197,267;146,285
+
+Vehicle: 46,167
+Tour 1: 69,173
+
+Vehicle: 195,124
+
+Vehicle: 34,120
+
+Vehicle: 56,200
+Tour 1: 51,265;62,288
+
+Vehicle: 124,127
+Tour 1: 102,35
+Tour 2: 143,79
+Tour 3: 74,120;156,62
+
+Data set #95
+Minimum Sum of Tour Lengths: 924.652
+Vehicle: 160,267
+Tour 1: 196,241
+Tour 2: 116,209;75,251
+
+Vehicle: 18,68
+
+Vehicle: 77,116
+Tour 1: 26,179;67,238
+
+Vehicle: 113,1
+
+Vehicle: 177,195
+
+Vehicle: 101,21
+Tour 1: 88,22
+Tour 2: 111,76;169,81
+Tour 3: 85,42;128,52
+
+Data set #96
+Minimum Sum of Tour Lengths: 766.058
+Vehicle: 147,156
+Tour 1: 134,229
+Tour 2: 194,166
+
+Vehicle: 131,52
+Tour 1: 136,25;75,28
+
+Vehicle: 40,175
+Tour 1: 34,138
+
+Vehicle: 60,279
+Tour 1: 67,273
+
+Vehicle: 135,57
+Tour 1: 199,80;159,32
+
+Vehicle: 3,274
+Tour 1: 16,242;31,225
+
+Data set #97
+Minimum Sum of Tour Lengths: 756.513
+Vehicle: 139,16
+
+Vehicle: 174,9
+
+Vehicle: 1,266
+Tour 1: 21,278
+Tour 2: 62,278;30,294
+
+Vehicle: 125,136
+Tour 1: 90,140
+Tour 2: 188,154;83,92
+Tour 3: 118,196;123,211
+
+Vehicle: 4,225
+Tour 1: 4,182
+
+Vehicle: 84,24
+Tour 1: 89,30
+
+Data set #98
+Minimum Sum of Tour Lengths: 972.873
+Vehicle: 184,262
+Tour 1: 186,264;199,253
+
+Vehicle: 182,130
+Tour 1: 138,26
+Tour 2: 187,53
+
+Vehicle: 54,172
+Tour 1: 58,263;42,223
+Tour 2: 43,150;43,35
+
+Vehicle: 103,300
+
+Vehicle: 123,148
+Tour 1: 150,142;126,118
+
+Vehicle: 173,134
+
+Data set #99
+Minimum Sum of Tour Lengths: 962.094
+Vehicle: 19,103
+Tour 1: 20,85
+Tour 2: 52,70;78,119
+
+Vehicle: 37,44
+
+Vehicle: 76,26
+
+Vehicle: 185,14
+
+Vehicle: 115,271
+Tour 1: 181,197;128,212
+Tour 2: 82,190;47,202
+Tour 3: 176,191;189,197
+
+Vehicle: 165,40
+Tour 1: 133,83
+
+Data set #100
+Minimum Sum of Tour Lengths: 776.268
+Vehicle: 37,75
+Tour 1: 58,24
+Tour 2: 72,65
+
+Vehicle: 136,108
+Tour 1: 187,136;194,140
+
+Vehicle: 34,196
+
+Vehicle: 47,259
+Tour 1: 14,277
+
+Vehicle: 61,160
+Tour 1: 96,149;79,98
+
+Vehicle: 70,209
+Tour 1: 68,214
+Tour 2: 172,236;110,198
+
+Data set #101
+Minimum Sum of Tour Lengths: 1008.97
+Vehicle: 127,83
+Tour 1: 107,104
+Tour 2: 92,119;71,152
+
+Vehicle: 170,180
+Tour 1: 153,254;178,272
+
+Vehicle: 87,227
+Tour 1: 99,278
+Tour 2: 9,170
+
+Vehicle: 176,45
+Tour 1: 190,11
+
+Vehicle: 138,48
+Tour 1: 71,15;43,25
+
+Vehicle: 32,280
+
+Data set #102
+Minimum Sum of Tour Lengths: 971.042
+Vehicle: 35,245
+Tour 1: 56,263
+Tour 2: 62,242
+
+Vehicle: 2,120
+
+Vehicle: 15,80
+Tour 1: 41,44
+Tour 2: 102,7;112,43
+
+Vehicle: 99,216
+Tour 1: 158,281;123,279
+
+Vehicle: 165,184
+Tour 1: 129,142
+Tour 2: 188,78;178,126
+
+Vehicle: 32,194
+
